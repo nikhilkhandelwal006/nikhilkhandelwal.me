@@ -5,10 +5,10 @@ const Navbar = () => {
   return (
     <div className='navbar'>
       <div className="nav-container">
-        <div className="left">Nikhil Khandelwal</div>
+        <div className="left"><a href="#" >Nikhil Khandelwal</a></div>
         <div className="right">
           <ul className="right-1">
-            <li ><Link to="/">Home</Link></li>
+            <li  ><Link to="/">Home</Link></li>
             <li><Link to="/about">About</Link></li>
             <li>Projects</li>
             <li>Books</li>
@@ -16,7 +16,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-      
+
     </div>
   )
 }

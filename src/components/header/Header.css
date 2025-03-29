@@ -2,10 +2,11 @@
   width: 1800px;
   margin: auto;
   max-width: 100%;
+  
 }
 
 .image {
-  height: calc(100vh - 123px);
+  height: calc(140vh - 123px);
   position: relative;
   overflow: hidden;
 }
