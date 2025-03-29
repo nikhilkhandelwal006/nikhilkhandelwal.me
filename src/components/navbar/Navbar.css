@@ -41,7 +41,7 @@
   font-weight: 400;
   font-size: 22px;
   list-style-type: none;
-  
+  border-bottom: 2px solid transparent;
 }
 .right-1 li a {
   color: rgb(0, 0, 0);
