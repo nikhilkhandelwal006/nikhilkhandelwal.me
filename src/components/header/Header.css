@@ -72,12 +72,15 @@
 .view {
   margin-top: 25px;
   background: transparent;
-  padding: 14px 42px;
+  padding: 11px 44px;
   color: #fff;
-  border: 3px solid white;
-  font-size: 22px;
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 21px;
   cursor: pointer;
- transition:  border-color 0.5s ease 0s, background-color 0.8s ease 0s
+ transition:  border-color 0.5s ease 0s, background-color 0.8s ease 0s;
+ font-weight: 100;
+ border-radius: 0%;
+
 
 }
 
