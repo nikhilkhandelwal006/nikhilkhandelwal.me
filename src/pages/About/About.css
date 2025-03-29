@@ -1,14 +1,14 @@
 .about-container {
   width: 1800px;
   margin: auto;
+  max-width: 100%;
 }
 
 .content-container {
   display: flex;
   background-color: rgb(240, 243, 246, 1);
-
-  max-width: 100%;
   align-items: center;
+  /* max-width: 100%; */
 }
 
 .left-ab {
@@ -37,7 +37,7 @@ h2 {
 }
 h3 {
   margin: 20px 0px;
-  
+
   font-size: 26px;
   font-weight: 600;
 }
@@ -49,12 +49,13 @@ p.one {
   padding-bottom: 10px;
 }
 
-ul.skills li{
+ul.skills li {
   text-align: justify;
 }
 
 ul li {
   margin: 10px;
   /* font-family: "Open Sans", sans-serif; */
+
   font-size: 20px;
 }
