@@ -1,0 +1,56 @@
+.about-container {
+  width: 1800px;
+  margin: auto;
+}
+
+.content-container {
+  display: flex;
+  background-color: rgb(240, 243, 246, 1);
+
+  max-width: 100%;
+  align-items: center;
+}
+
+.left-ab {
+  width: 50%;
+}
+.left-ab img {
+  width: 100%;
+  object-fit: cover;
+  height: 1210px;
+  display: block;
+}
+h2 {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.about {
+  padding: 40px 100px;
+}
+
+.right-ab {
+  width: 50%;
+}
+h3 {
+  margin: 20px 0px;
+
+  font-size: 26px;
+  font-weight: 600;
+}
+p.one {
+  font-size: 20px;
+
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+
+ul li {
+  margin: 10px;
+  /* font-family: "Open Sans", sans-serif; */
+  font-size: 20px;
+}

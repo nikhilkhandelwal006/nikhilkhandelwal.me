@@ -1,0 +1,37 @@
+.footer-container{
+    width: 1800px;
+    /* border: 1px solid black; */
+    margin:  auto;
+  
+   
+}
+
+.footer-content{
+   max-width: 80%;
+   margin:  auto;
+   /* border: 1px solid black; */
+   text-align: center;
+   padding: 30px 0px;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 10px ;
+  
+
+
+}
+.icons svg {
+  width: 34px;
+  height: 56px;
+}
+.para{
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.para span{
+  text-decoration: underline;
+}
