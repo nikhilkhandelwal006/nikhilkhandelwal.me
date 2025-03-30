@@ -1,8 +1,6 @@
 .project-container {
   width: 1800px;
   margin: auto;
-
-  /* border: 2px solid black; */
 }
 
 .heading {
@@ -16,7 +14,7 @@
 }
 
 .showcase {
-  /* border: 2px solid black; */
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -26,7 +24,7 @@
 }
 
 .project-one {
-  /* border: 1px dashed red; */
+  
   width: 1532px;
   padding: 12px 8px;
 }
@@ -34,7 +32,6 @@
 .project-one img {
   width: 1500px;
    cursor: pointer;
-   /* box-shadow: -3px -3px 8px; */
    box-shadow: 0 0 7px 0px;
 }
 
