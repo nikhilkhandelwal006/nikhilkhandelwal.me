@@ -5,7 +5,7 @@ import About from "./pages/About/About"
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Projects from "./pages/Projects/Projects";
-import Contact from "./components/Contact/Contact";
+import Contact from "./pages/Contact/Contact";
 
 const App = () => {
   return (

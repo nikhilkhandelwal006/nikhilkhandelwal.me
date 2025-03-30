@@ -1,0 +1,110 @@
+.contact-container {
+  width: 1800px;
+  margin: auto;
+  max-width: 100%;
+}
+
+.content-container {
+  display: flex;
+  background-color: rgb(240, 243, 246, 1);
+  align-items: center;
+  /* max-width: 100%; */
+}
+
+.left-ab {
+  width: 50%;
+}
+.left-ab img {
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+h2 {
+  font-family: "Cinzel", serif;
+  font-weight: 400;
+  font-size: 50px;
+  text-align: start;
+  margin-bottom: 30px;
+}
+
+.about {
+  padding: 40px 100px;
+}
+.right-ab {
+  width: 50%;
+}
+
+.about p.one {
+  font-size: 20px;
+  text-align: justify;
+  font-weight: 400;
+  line-height: 32px;
+  padding-bottom: 10px;
+}
+
+.personal {
+  text-align: center;
+  padding-top: 40px;
+  font-size: 22px;
+  font-weight: 400;
+}
+.personal a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin-top: 30px;
+  gap: 60px;
+  padding: 10px 20px;
+  position: relative;
+}
+.firstname label {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 19px;
+  font-weight: 300;
+}
+
+.firstname label input {
+  width: 500px;
+  height: 50px;
+  font-size: 18px;
+  background-color: transparent;
+  padding: 5px 12px;
+}
+
+input:hover {
+  border: 3px solid black;
+  border-radius: inherit;
+}
+
+.firstname label textarea {
+  width: 500px;
+  height: 197px;
+  font-size: 16px;
+  background-color: transparent;
+  padding: 12px 16px;
+}
+textarea:hover {
+  border: 3px solid black;
+}
+
+.firstname button.hh {
+  padding: 13px 37px;
+  color: white;
+  font-size: 17px;
+  background-color: #192841;
+  position: absolute;
+  top: 835px;
+  left: 427px;
+  cursor: pointer;
+}
