@@ -17,6 +17,7 @@
   background-color: rgba(39, 58, 78, .4);
   position: absolute;
   inset: 0;
+  opacity: -0.4;
 }
 .img-h {
   height: 100%;
