@@ -27,9 +27,16 @@
 
 .project-one {
   border: 1px dashed red;
-  width: 1507px;
+  width: 1532px;
+  padding: 12px 8px;
 }
 
 .project-one img {
   width: 1500px;
+   cursor: pointer;
+   box-shadow: 3px 5px 5px 3px #888888;
+}
+
+.project-one img:hover{
+    opacity: 0.8;
 }
