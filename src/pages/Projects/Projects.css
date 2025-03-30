@@ -1,20 +1,35 @@
-.project-container{
-    width: 1800px;
-    margin: auto;
+.project-container {
+  width: 1800px;
+  margin: auto;
 
-    border: 2px solid black;
+  border: 2px solid black;
 }
 
-.heading{
-    font-family: "Cinzel", serif;
-
+.heading {
+  font-family: "Cinzel", serif;
+  padding-bottom: 20px;
 }
 
-.heading h2{
-    text-align: center;
-    letter-spacing: 2px;
+.heading h2 {
+  text-align: center;
+  letter-spacing: 2px;
 }
 
-.showcase{
-    border: 2px solid black;
+.showcase {
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 22px;
+  gap: 60px;
+}
+
+.project-one {
+  border: 1px dashed red;
+  width: 1507px;
+}
+
+.project-one img {
+  width: 1500px;
 }
