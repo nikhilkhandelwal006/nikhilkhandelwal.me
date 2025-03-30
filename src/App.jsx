@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home";
 import About from "./pages/About/About"
 import { Routes, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
+import Projects from "./pages/Projects/Projects";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Home/>} />
         <Route path="/about" element={<About/>} />
+        <Route path="/projects" element={<Projects/>} />
       </Routes>
       <Footer/>
     </div>

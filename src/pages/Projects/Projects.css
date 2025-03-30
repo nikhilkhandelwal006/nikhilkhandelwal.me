@@ -1,0 +1,20 @@
+.project-container{
+    width: 1800px;
+    margin: auto;
+
+    border: 2px solid black;
+}
+
+.heading{
+    font-family: "Cinzel", serif;
+
+}
+
+.heading h2{
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.showcase{
+    border: 2px solid black;
+}
