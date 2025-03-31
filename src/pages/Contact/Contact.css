@@ -58,14 +58,16 @@ h2 {
 }
 
 .form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: start;
+
   margin-top: 30px;
   gap: 50px;
   padding: 10px 20px;
-  position: relative;
+  width: 500px;
+ 
+}
+.firstname{
+  margin-bottom: 20px;
+
 }
 .firstname label {
   display: flex;
@@ -73,30 +75,43 @@ h2 {
   gap: 10px;
   font-size: 19px;
   font-weight: 300;
+  width: 100%;
 }
 
 .firstname label input {
-  width: 500px;
+  width: 100%;
   height: 50px;
   font-size: 18px;
   background-color: transparent;
   padding: 5px 12px;
+  border: 1px solid rgba(0, 0, 0, .1);
+  transition: all .3s ease-in-out;
 }
 
-input:hover {
-  border: 3px solid black;
-  border-radius: inherit;
-}
+.firstname label input:hover {
+  border: 1px solid black;
 
+}
+.firstname label input:focus {
+  outline: none;
+  border: 1px solid black;
+
+}
 .firstname label textarea {
-  width: 500px;
+  width: 100%;
   height: 197px;
   font-size: 16px;
   background-color: transparent;
   padding: 12px 16px;
+  border: 1px solid rgba(0, 0, 0, .1);
 }
-textarea:hover {
-  border: 3px solid black;
+.firstname label textarea:hover {
+  border: 1px solid black;
+
+}
+.firstname label textarea:focus{
+  border: 1px solid black;
+  outline: none;
 }
 
 .firstname button.hh {
@@ -104,8 +119,10 @@ textarea:hover {
   color: white;
   font-size: 17px;
   background-color: #192841;
-  position: absolute;
-  top: 835px;
-  left: 427px;
   cursor: pointer;
+ 
+}
+
+.firstname.button-sub{
+  text-align: right;
 }
