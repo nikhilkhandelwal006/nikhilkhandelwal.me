@@ -3,7 +3,7 @@ import './Projects.css'
 import FD from "../../assets/FD.png"
 const Projects = () => {
   return (
-    <div className='project-container'>
+    <div className='project-container page'>
         <div className="heading">
             <h2>PROJECTS</h2>
         </div>

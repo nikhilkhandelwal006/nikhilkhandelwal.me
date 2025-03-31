@@ -3,7 +3,7 @@ import "./About.css";
 import img from "../../assets/img.png";
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container page">
       <div className="content-container">
         <div className="left-ab ">
           <img src={img} alt="" />
