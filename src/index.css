@@ -13,7 +13,7 @@ html,body {
 .page {
   opacity: 0;
   transform: translateY(10px);
-  animation: fadeIn 0.8s ease-in-out forwards;
+  animation: fadeIn 1.2s ease-in-out forwards;
 }
 
 @keyframes fadeIn {
