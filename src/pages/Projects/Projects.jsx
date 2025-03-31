@@ -11,6 +11,10 @@ const Projects = () => {
         <div className="project-one" ><img src={FD} alt="" /></div>
         <div className="project-one"><img src={FD} alt="" /></div>
         <div className="project-one"><img src={FD} alt="" /></div>
+        <div className="project-one"><img src={FD} alt="" /></div>
+        <div className="project-one"><img src={FD} alt="" /></div>
+        <div className="project-one"><img src={FD} alt="" /></div>
+
       </div>
     </div>
   )
