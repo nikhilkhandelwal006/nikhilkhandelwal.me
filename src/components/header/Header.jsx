@@ -25,7 +25,7 @@ const Header = () => {
             Download My Resume{" "}
           </button> */}
 <a href="https://drive.google.com/uc?export=download&id=1ZOp0y5s71JSvynwfo8FR39X5YvgHUwnO" download>
-  <button  className="view">Download Resume</button>
+  <button  className="view">Download My Resume</button>
 </a>
         </div>
       </section>
