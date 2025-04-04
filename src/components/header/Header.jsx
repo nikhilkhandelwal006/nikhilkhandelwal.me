@@ -18,7 +18,7 @@ const Header = () => {
           <div class="line"></div>
           <div class="line"></div>
         </div>
-        <img className="img-h" src={wa} alt="" />
+        <img className="img-h" src={wa} alt="Home-image" />
         <div className="text-box">
           <span className="overlay-text">Engineering Innovation with Code</span>
           {/* <button onClick={handleClick} className="view">

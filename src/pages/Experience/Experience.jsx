@@ -18,7 +18,7 @@ const Experience = () => {
           As a SDE at True Value Infosoft (P) Ltd. , I have worked on multiple projects developed features like attendance tracking in admin panels, optimized meta fields for travel websites based on client needs, enhancing and maintaining codebases, implementing new features, and optimizing system performance. I built and managed REST APIs from scratch for an RTO Parivahan project, handling both backend and frontend while ensuring live API stability. My expertise lies in MERN stack development with a strong focus on delivering efficient and reliable applications.
           </div>
         </li>
-        <li style={{ "--accent-color": "#FBCA3E" }}>
+        <li style={{ "--accent-color": "#a88930" }}>
           <div className="date">Websuntech</div>
           <div className="title">Junior Software Engineer</div>
           <div className="title">(02/2024 - 01/2025)</div>
@@ -27,7 +27,7 @@ const Experience = () => {
           As a Junior Software Development Engineer at WebSunTech, I contributed to the development and enhancement of multiple web applications. I worked on building and optimizing backend APIs, improving database performance, and implementing frontend features to enhance user experience. Additionally, I collaborated on projects involving custom admin panels and dynamic web applications, ensuring efficient functionality and seamless integrations. This role helped me refine my full-stack development skills and gain hands-on experience in delivering scalable and high-performance solutions.
           </div>
         </li>
-        <li style={{ "--accent-color": "#E24A68" }}>
+        <li style={{ "--accent-color": "#72686a" }}>
           <div className="date">Unacademy (Sorting Hat Technologies)</div>
           <div className="title">Category Associate</div>
           <div className="title">(06/2023 - 02/2024)</div>
@@ -47,7 +47,7 @@ const Experience = () => {
           Contributed to developing and maintaining web applications, working on both front-end (React, HTML, CSS) and back-end (Node.js, Express). Assisted in code reviews, debugging, and performance optimization. Managed databases like MongoDB and integrated APIs to ensure seamless front-end and server communication, enhancing user experience.
           </div>
         </li>
-        <li style={{ "--accent-color": "#4CADAD" }}>
+        <li style={{ "--accent-color": "#007a7a" }}>
           <div className="date">MatchMove</div>
           <div className="title">
           Product Management Intern </div>
