@@ -36,10 +36,7 @@ const Experience = () => {
           <div className="title">(06/2023 - 02/2024)</div>
 
           <div className="descr">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima
-            consequuntur soluta placeat iure totam commodi repellendus ea
-            delectus, libero fugit quod reprehenderit, sequi quo, et dolorum
-            saepe nulla hic.
+          I conducted market analysis and competitor research to identify trends and opportunities, driving growth and engagement in specific educational categories at Unacademy. Collaborating with educators, I curated high-quality content aligned with student needs. Using data analytics, I tracked performance, optimized recommendations, and enhanced user experience. 
           </div>
         </li>
         <li style={{ "--accent-color": "#1B5F8C" }}>
@@ -50,8 +47,7 @@ const Experience = () => {
           </div>
           <div className="title">(06/2021 - 08/2021)</div>
           <div className="descr">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
-            cumque.
+          Contributed to developing and maintaining web applications, working on both front-end (React, HTML, CSS) and back-end (Node.js, Express). Assisted in code reviews, debugging, and performance optimization. Managed databases like MongoDB and integrated APIs to ensure seamless front-end and server communication, enhancing user experience.
           </div>
         </li>
         <li style={{ "--accent-color": "#4CADAD" }}>
