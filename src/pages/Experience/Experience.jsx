@@ -1,31 +1,61 @@
-import React from 'react'
-import "./Experience.css"
-
+import React from "react";
+import "./Experience.css";
 
 const Experience = () => {
   return (
-    <div>
-     <section className="experience">
-      <div className="content">
-        <h1>My Experience</h1>
-        <ul>
-          <li>
-            <div className="experience-content">
-              <h2>Software Engineer</h2>
-              <p>Worked on full-stack development...</p>
-            </div>
-          </li>
-          <li>
-            <div className="experience-content">
-              <h2>Frontend Developer</h2>
-              <p>Focused on React, Tailwind CSS...</p>
-            </div>
-          </li>
-        </ul>
+    <>
+      <div className="heading">
+        <h2>Experiences</h2>
       </div>
-    </section>
-    </div>
-  )
-}
+      <br />
+      <ul className="experience-timeline">
+        <li style={{ "--accent-color": "#41516C" }}>
+          <div className="date">True Value Infosoft (P) Ltd</div>
+          <div className="title">Software Development Engineer- I</div>
+          <div className="title">(08/2024 - Present)</div>
 
-export default Experience
+          <div className="descr">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
+            itaque hic quibusdam fugiat est numquam harum, accusamus suscipit
+            consequatur laboriosam!
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#FBCA3E" }}>
+          <div className="date">2007</div>
+          <div className="title">Title 2</div>
+          <div className="descr">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
+            adipisci nobis nostrum vero nihil veniam.
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#E24A68" }}>
+          <div className="date">2012</div>
+          <div className="title">Title 3</div>
+          <div className="descr">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima
+            consequuntur soluta placeat iure totam commodi repellendus ea
+            delectus, libero fugit quod reprehenderit, sequi quo, et dolorum
+            saepe nulla hic.
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#1B5F8C" }}>
+          <div className="date">2017</div>
+          <div className="title">Title 4</div>
+          <div className="descr">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
+            cumque.
+          </div>
+        </li>
+        <li style={{ "--accent-color": "#4CADAD" }}>
+          <div className="date">2022</div>
+          <div className="title">Title 5</div>
+          <div className="descr">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.
+          </div>
+        </li>
+      </ul>
+    </>
+  );
+};
+
+export default Experience;
