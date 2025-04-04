@@ -12,7 +12,7 @@ const Experience = () => {
         <li style={{ "--accent-color": "#41516C" }}>
           <div className="date">True Value Infosoft (P) Ltd</div>
           <div className="title">Software Development Engineer- I</div>
-          <div className="title">(08/2024 - Present)</div>
+          <div className="title">(03/2025 - Present)</div>
 
           <div className="descr">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
@@ -21,16 +21,20 @@ const Experience = () => {
           </div>
         </li>
         <li style={{ "--accent-color": "#FBCA3E" }}>
-          <div className="date">2007</div>
-          <div className="title">Title 2</div>
+          <div className="date">Websuntech</div>
+          <div className="title">Junior Software Engineer</div>
+          <div className="title">(04/2024 - 01/2025)</div>
+
           <div className="descr">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
             adipisci nobis nostrum vero nihil veniam.
           </div>
         </li>
         <li style={{ "--accent-color": "#E24A68" }}>
-          <div className="date">2012</div>
-          <div className="title">Title 3</div>
+          <div className="date">Unacademy (Sorting Hat Technologies)</div>
+          <div className="title">Category Associate</div>
+          <div className="title">(06/2023 - 02/2024)</div>
+
           <div className="descr">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga minima
             consequuntur soluta placeat iure totam commodi repellendus ea
@@ -39,16 +43,22 @@ const Experience = () => {
           </div>
         </li>
         <li style={{ "--accent-color": "#1B5F8C" }}>
-          <div className="date">2017</div>
-          <div className="title">Title 4</div>
+          <div className="date">EDSPREAD</div>
+
+          <div className="title">
+            Full Stack Development Trainee & Intern{" "}
+          </div>
+          <div className="title">(06/2021 - 08/2021)</div>
           <div className="descr">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit,
             cumque.
           </div>
         </li>
         <li style={{ "--accent-color": "#4CADAD" }}>
-          <div className="date">2022</div>
-          <div className="title">Title 5</div>
+          <div className="date">MatchMove</div>
+          <div className="title">
+          Product Management Intern </div>
+          <div className="title">(12/2020 - 03/2021)</div>
           <div className="descr">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.
           </div>
