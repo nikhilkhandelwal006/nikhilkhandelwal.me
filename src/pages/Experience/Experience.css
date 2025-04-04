@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+:root {
+  --text-color: #444;
+  --title-color: #3c3c3c;
+  --bg-color: #f9f9f9;
+  --secondary-bg-color: #1a1a1a;
+  --progressbar-bg: #ececec;
+  --progressbar-color: #34495e;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+  font-size: 16px;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.hero {
+  height: 100vh;
+  background: url('https://source.unsplash.com/a2NRu2Wxa2o/') center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.hero h1 {
+  color: white;
+  font-size: 2.5rem;
+  text-shadow: 0px 2px 3px #2d2d2d;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-in-out forwards 0.5s;
+}
+
+/* ABOUT SECTION */
+.about-myself {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.about-myself h2 {
+  color: var(--title-color);
+  font-size: 3rem;
+  margin-bottom: 20px;
+  opacity: 0;
+  transform: translateY(-50px);
+  animation: slideIn 1s ease-in-out forwards;
+}
+
+/* EXPERIENCE SECTION */
+.experience {
+  background: var(--secondary-bg-color);
+  padding: 50px 0;
+  text-align: center;
+  color: white;
+}
+
+.experience ul {
+  list-style: none;
+  padding: 0;
+}
+
+.experience li {
+  opacity: 0;
+  transform: translateX(10vw);
+  animation: fadeInLeft 0.8s ease-in-out forwards;
+}
+
+/* PROGRESS BARS */
+.skills-bar-container .bar-container {
+  background: var(--progressbar-bg);
+  height: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.skills-bar-container .progressbar {
+  background: var(--progressbar-color);
+  height: 100%;
+  width: 0;
+  animation: fillProgress 2s ease-out forwards;
+}
+
+/* ANIMATIONS */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeInLeft {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes fillProgress {
+  to {
+    width: 100%;
+  }
+}
