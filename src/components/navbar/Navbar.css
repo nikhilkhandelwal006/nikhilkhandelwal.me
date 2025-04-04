@@ -54,4 +54,6 @@
 
 .right-1 li a:focus {
   color: inherit;
+  border-bottom: 2px solid black;
+
 }
