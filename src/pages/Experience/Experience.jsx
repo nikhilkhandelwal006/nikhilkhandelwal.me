@@ -15,19 +15,16 @@ const Experience = () => {
           <div className="title">(03/2025 - Present)</div>
 
           <div className="descr">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-            itaque hic quibusdam fugiat est numquam harum, accusamus suscipit
-            consequatur laboriosam!
+          As a SDE at True Value Infosoft (P) Ltd. , I have worked on multiple projects developed features like attendance tracking in admin panels, optimized meta fields for travel websites based on client needs, enhancing and maintaining codebases, implementing new features, and optimizing system performance. I built and managed REST APIs from scratch for an RTO Parivahan project, handling both backend and frontend while ensuring live API stability. My expertise lies in MERN stack development with a strong focus on delivering efficient and reliable applications.
           </div>
         </li>
         <li style={{ "--accent-color": "#FBCA3E" }}>
           <div className="date">Websuntech</div>
           <div className="title">Junior Software Engineer</div>
-          <div className="title">(04/2024 - 01/2025)</div>
+          <div className="title">(02/2024 - 01/2025)</div>
 
           <div className="descr">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos
-            adipisci nobis nostrum vero nihil veniam.
+          As a Junior Software Development Engineer at WebSunTech, I contributed to the development and enhancement of multiple web applications. I worked on building and optimizing backend APIs, improving database performance, and implementing frontend features to enhance user experience. Additionally, I collaborated on projects involving custom admin panels and dynamic web applications, ensuring efficient functionality and seamless integrations. This role helped me refine my full-stack development skills and gain hands-on experience in delivering scalable and high-performance solutions.
           </div>
         </li>
         <li style={{ "--accent-color": "#E24A68" }}>
@@ -56,7 +53,7 @@ const Experience = () => {
           Product Management Intern </div>
           <div className="title">(12/2020 - 03/2021)</div>
           <div className="descr">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, non.
+          During my internship at MatchMove, I immersed myself in the dynamic world of product management, where I honed my skills in market research, product development, and user experience design. Collaborating with talented teams, I contributed to enhancing product features and refining strategies that directly impacted user satisfaction and business growth.
           </div>
         </li>
       </ul>
