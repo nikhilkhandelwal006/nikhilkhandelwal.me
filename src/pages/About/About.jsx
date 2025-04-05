@@ -49,7 +49,7 @@ const About = () => {
               </li>
               <li>
                 <strong>Libraries and Frameworks:</strong> React, Redux,
-                Express.js, Node.js, Spring, Spring-Boot, Bootstrap
+                Express.js, Node.js, Spring, <br /> Spring-Boot
               </li>
               <li>
                 <strong>Databases and other:</strong> MongoDB, PostgreSQL, Redis
