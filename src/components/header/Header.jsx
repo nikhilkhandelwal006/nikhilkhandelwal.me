@@ -24,7 +24,7 @@ const Header = () => {
           {/* <button onClick={handleClick} className="view">
             Download My Resume{" "}
           </button> */}
-<a href="https://drive.google.com/uc?export=download&id=1ZOp0y5s71JSvynwfo8FR39X5YvgHUwnO" download>
+<a href="https://drive.google.com/uc?export=download&id=1lfLT7QXhH7sTfCQ6r0jWIyG_q5oWL2gY" download>
   <button  className="view">Download My Resume</button>
 </a>
         </div>
