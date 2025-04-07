@@ -1,5 +1,5 @@
 import React from "react";
-import "./header.css";
+import "./Header.css";
 import wa from "../../assets/hm-1.jpg";
 const Header = () => {
 
